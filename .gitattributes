@@ -1,0 +1,4 @@
+# Convert all line endings to LF, not CRLF, in Git
+* text=auto 
+
+* eol=LF
