@@ -18,6 +18,7 @@
 		"lint:prettier:debug": "prettier . --write --config ./config/.prettierc.js --ignore-path ./.gitignore",
 		"pre-commit": "lint-staged -c ./config/lint-staged.config.js",
 		"prepare": "husky install",
+		"publish:all": "npm run build && npm publish --access=public && echo \"Successfully published to NPM!\"",
 		"start": "ts-node-dev --respawn --transpile-only --transpiler sucrase/ts-node-plugin ./src/index.ts",
 		"start:production": "node dist/index"
 	},

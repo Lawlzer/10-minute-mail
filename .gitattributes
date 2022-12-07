@@ -2,3 +2,6 @@
 * text=auto 
 
 * eol=LF
+
+# Ignore all files in config, as GitHub thinks this is a JS project due to JS configs
+config/* linguist-vendored
